@@ -1,0 +1,1 @@
+/mnt/c/Users/nateb/.wezterm.lua
