@@ -125,7 +125,6 @@ export QT_ENABLE_HIGHDPI_SCALING=1
 export PATH="$PATH:/home/nateb/projects/howdoi"
 export PATH="$PATH:~/.local/bin"
 chmod 0700 /run/user/1000/
-. "$HOME/.cargo/env"
 
 function psmake() {
   if [ -z "$1" ]; then
