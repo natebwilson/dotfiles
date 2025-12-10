@@ -19,3 +19,15 @@ vim.api.nvim_create_autocmd({ "TermOpen", "BufEnter" }, {
     end
   end,
 })
+
+vim.api.nvim_create_autocmd("TermClose", {
+  pattern = "term://*codex*",
+  callback = function(args)
+    -- Close the Codex terminal buffer as soon as the job exits
+    vim.schedule(function()
+      if vim.api.nvim_buf_is_valid(args.buf) then
+        vim.api.nvim_buf_delete(args.buf, { force = true })
+      end
+    end)
+  end,
+})

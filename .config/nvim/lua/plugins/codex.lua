@@ -17,7 +17,7 @@ return {
       toggle = nil,
       quit = "<C-q>",
     },
-    boreder = "rounded",
+    border = "rounded",
     width = 0.8,
     height = 0.8,
     model = nil,
