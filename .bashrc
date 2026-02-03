@@ -139,6 +139,9 @@ function psmake() {
   return 0
 }
 
+#Bind v to nvim
+alias v="nvim"
+
 # flex neofetch lol
 alias clean="clear; neofetch"
 
