@@ -73,4 +73,8 @@ source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 # ---- win32yank ----
 alias win32yank='win32yank.exe'
 
+# ---- python ---- 
+alias python='python3'
+
+
 
