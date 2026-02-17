@@ -3,7 +3,7 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("i", "jk", "<Esc>")
-vim.keymap.set("i", "kj", "<Esc>")
+vim.keymap.set("i", "JK", "<Esc>")
 vim.keymap.set("n", "oo", "o<Esc>k")
 
 vim.keymap.set("n", "<leader>cb", ":make<CR>", { desc = "Run Makefile" })
