@@ -11,3 +11,18 @@ add_newline = true
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
+
+[vlang]
+disabled = true
+
+
+[custom.verilog]
+format = "via [$symbol]($style)"
+symbol = "Verilog "
+style = "bold blue"
+disabled = false
+detect_extensions = ["v"]
+detect_files = ["apio.ini"]
+detect_folders = []
+
+
