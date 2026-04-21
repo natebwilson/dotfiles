@@ -8,6 +8,9 @@ setopt HIST_IGNORE_DUPS
 setopt HIST_IGNORE_SPACE
 setopt SHARE_HISTORY
 
+# ---- zsh opts ----
+unsetopt LIST_BEEP
+
 # ---- lesspipe ----
 [[ -x /usr/bin/lesspipe ]] && eval "$(SHELL=/bin/sh lesspipe)"
 
@@ -76,5 +79,9 @@ alias win32yank='win32yank.exe'
 # ---- python ---- 
 alias python='python3'
 
+# ---- wezterm ----
+export PATH="$PATH:/mnt/c/Program Files/WezTerm"
+alias wezterm='wezterm.exe'
 
-
+# ---- bat ----
+alias bat='batcat'
